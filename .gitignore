@@ -1,0 +1,59 @@
+# IDEs
+.project
+.pydevproject
+.idea
+.vscode
+.settings
+.DS_Store
+
+# Random files
+*~
+\#*
+tags
+
+virtualenv/
+htmlcov/
+src/static_root/*
+bvn_images/*
+!bvn_images/.gitkeep
+
+# Python compiled byte code
+__pycache__/
+*.pyc
+
+# SQLite3 database
+*.sqlite
+
+
+# Docker volume data
+*.rdb
+*.pid
+celerybeat-schedule.*
+
+# Node modules
+node_modules/
+npm-debug.log
+
+# Coverage
+coverage/
+.coverage
+.cache
+
+# static validation files
+.eslintrc
+.sass-lint.yml
+.prospector.yml
+.coveragerc
+
+# in case we run shippable tests don't include it
+shippable/
+
+# not include scripts because they come from external module
+scripts/
+
+# Celery files
+celerybeat-schedule
+celerybeat.pid
+
+# Xero certificate
+src/quickcheckbackend/certificates/*-prod.*
